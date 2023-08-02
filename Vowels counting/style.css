@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: cornsilk;
+}
+.container{
+    width: 40rem;
+    border: 1px solid gray;
+    background-color:coral;
+    text-align: center;
+    border-radius: 5px;
+    padding: 1rem;
+}
+.count{
+    font-size: 4rem;
+    padding: 0 1rem;
+    text-align: center;
+}
+input[type='text']{
+    display: block;
+    font-size: 16px;
+    text-align: center;
+    border:1px solid gray;
+    border-radius: 2px;
+    padding: 10px;
+    width: 100%;
+    outline: none;
+}
